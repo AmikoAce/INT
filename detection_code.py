@@ -224,6 +224,7 @@ main()
 
 
 ## Using genesis as dictionary and using it on Alice in Wonderland
+"""
 import urllib.request
 
 def read_text_url(webpage):
@@ -242,7 +243,7 @@ alice_text = read_text_url(prefix + alice_prefix + '11.txt')
 
 spell = spellingDict(genesis_text.split(),alice_text.split(),hammingDist)
 printDict(spell)
-
+"""
 
 # In[ ]:
 
